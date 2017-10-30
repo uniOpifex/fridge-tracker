@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @fridge.location %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @fridge.brand %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @fridge.size %>
+</p>
+
+<%= link_to 'Edit', edit_fridge_path(@fridge) %> |
+<%= link_to 'Back', fridges_path %>
